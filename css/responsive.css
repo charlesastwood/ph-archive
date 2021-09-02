@@ -1,0 +1,1406 @@
+@media(max-width:1200px) {
+    .break-mdl {
+        left:0;
+        width: 100%;
+    }
+    .hidden-mdl {
+        display: none !important;
+    }
+    .visible-mdl {
+        display: block !important;
+    }
+    .visible-mdl-inline {
+        display: inline !important;
+    }
+}
+@media(max-width:1199px) {
+    .break-mdl2 {
+        width: 100%;
+    }
+    .hidden-mdl2 {
+        display: none !important;
+    }
+    .visible-mdl2 {
+        display: block !important;
+    }
+    .visible-mdl-inline2 {
+        display: inline !important;
+    }
+}
+@media(max-width:991px) {
+    .break-xsm {
+        left:0;
+        width:100%;
+    }
+    .hidden-xsm {
+        display:none !important;
+    }
+    .visible-xsm {
+        display:block !important;
+    }
+    .visible-xsm-inline {
+        display:inline !important;
+    }
+}
+@media screen and (max-width: 768px) {
+    .hidden-xs {
+        display: none !important;
+    }
+}
+
+
+/** Extensions to Bootstrap **/
+@media (min-width: 768px) {
+    .col-sm-aright {
+        text-align:right;
+    }
+}
+
+
+/* Fix for any Screens */
+@media (max-width: 1200px) {
+
+    section#latest-blog-section .blog-carousel .blog-item {
+        width:33%;
+    }
+}
+
+@media (max-width: 991px) {
+
+    ::-webkit-input-placeholder {
+        font-size:11px;
+        line-height:1.9em;
+    }
+    :-moz-placeholder {
+        font-size:11px;
+        line-height:1.9em;
+    }
+    ::-moz-placeholder {
+        font-size:11px;
+        line-height:1.9em;
+    }
+    :-ms-input-placeholder {
+        font-size:11px;
+        line-height:1.9em;
+    }
+
+     section#opening-business-account ul {
+       width: 80%;
+    }
+
+    section#opening-business-account h4,
+     section#calculating-volumetric-weight h4,
+     section#covering-your-shipping h4,
+     .pricing-surcharges-section .page-section-block h3,
+     section#uk-int-pallet-delivery h3 {
+       font-size:38px;
+       margin: 25px 0 35px;
+   }
+
+   section#calculating-volumetric-weight h4 .img-item {
+       width: 14%;
+   }
+
+    section#parcelhero-business-account form {
+        width: 92%;
+        padding: 35px 0;
+        margin: 0 auto 40px;
+    }
+
+    section#calculating-volumetric-weight form {
+         width: 100%;
+    }
+
+    section#calculating-volumetric-weight form .form-group {
+       width: 85%;
+       margin: 0 auto 15px;
+   }
+
+   section#calculating-volumetric-weight form .total-row input.form-control {
+      margin-left: 20px;
+      width: 50%;
+   }
+
+   section#calculating-volumetric-weight form input.form-control {
+       width: 96%;
+   }
+
+   section.page-section-block {
+      padding:40px 0;
+    }
+
+    section#covering-your-shipping .info-section-icon {
+   text-align: center;
+   }
+
+   section#covering-your-shipping .info-section-text p {
+    width: auto;
+    text-align: center;
+   }
+
+   section#covering-your-shipping .info-section-text h5 {
+    margin: 30px 0 15px;
+    text-align: center;
+  }
+
+  section#additional-cover-cost .enhanced-cover {
+     padding: 20px 0;
+}
+
+  section#additional-cover-cost .enhanced-cover label {
+    width: auto;
+    text-align: center;
+    display: block;
+   }
+
+   section#additional-cover-cost .enhanced-cover select {
+    width: 80%;
+   }
+
+    section#useful-links .info-section-icon {
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    section#useful-links, section#useful-links h6, section#useful-links ul li a {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+
+    ::-webkit-input-placeholder {
+        font-size:12px;
+        line-height:1.8em;
+    }
+    :-moz-placeholder {
+        font-size:12px;
+        line-height:1.8em;
+    }
+    ::-moz-placeholder {
+        font-size:12px;
+        line-height:1.8em;
+    }
+    :-ms-input-placeholder {
+        font-size:12px;
+        line-height:1.8em;
+    }
+
+    section#main-about-section h4,
+    section#main-about-section h5,
+    section#main-about-section p {
+        text-align:center;
+    }
+
+    .tabbed-container .tabs-navigation {
+        width:100%;
+    }
+    .tabbed-container .tab-contents {
+        width:100%;
+        margin-top:20px;
+        border-left:none;
+        padding:20px 0 0;
+        border-top:3px solid #207dbb;
+    }
+
+    section#about-parcelhero-section h3 {
+        padding-left:0;
+        font-size:38px;
+        text-align:center;
+    }
+    section#about-parcelhero-section img {
+        margin-bottom:20px;
+        padding-bottom:30px;
+        border-bottom:3px solid #207dbb;
+    }
+    section#about-parcelhero-section p {
+        border-left:0;
+        padding:0 0 20px 0;
+    }
+    section#about-parcelhero-section p br {
+        display:none;
+    }
+
+
+    section#main-about-section .text-block,
+    section#main-about-section .about-data-block .text-block {
+        margin-left:0;
+        padding-left:0;
+        margin-top:30px;
+        padding-top:30px;
+        border-left:none;
+        border-top:3px solid #207dbb;
+    }
+
+    section#about-core-values-section .core-value-section img,
+    section#about-core-values-section .core-value-section.core-value-section-left img {
+        float:none;
+        margin:auto;
+        display:block;
+    }
+    section#about-core-values-section .core-value-section h4,
+    section#about-core-values-section .core-value-section.core-value-section-left h4,
+    section#about-core-values-section .core-value-section.core-value-section-right h4 {
+        font-size:22px;
+        margin-bottom:0;
+        padding-top:20px;
+    }
+    section#about-core-values-section .core-value-section h4,
+    section#about-core-values-section .core-value-section.core-value-section-left h4,
+    section#about-core-values-section .core-value-section.core-value-section-right h4,
+    section#about-core-values-section .core-value-section p,
+    section#about-core-values-section .core-value-section.core-value-section-left p,
+    section#about-core-values-section .core-value-section.core-value-section-right p {
+        padding:10px;
+        text-align:left;
+    }
+    section#about-core-values-section .core-value-section p br {
+        display:none;
+    }
+
+    footer#main-footer .bottom-area {
+        text-align:center;
+    }
+    footer#main-footer .bottom-area .the-links {
+        margin-top:10px;
+        text-align:center;
+    }
+
+    section#opening-business-account ul {
+       width: 96%;
+    }
+
+  section#parcelhero-business-account form .form-group {
+      margin: 0 10% 15px;
+   }
+
+   section#parcelhero-business-account form .inner-wrap {
+       width: 68%;
+       padding-left: 0;
+
+   }
+
+   section#parcelhero-business-account form .inner-wrap .form-group {
+       margin-left: 0;
+       margin-right: 0;
+   }
+
+    section#parcelhero-business-account form h6 {
+        margin-left: 0;
+    }
+
+    section#intro-to-volumetic-weight .row {
+    width: auto;
+    margin: 30px auto 0;
+   }
+
+  section#intro-to-volumetic-weight .row .info-section-icon {
+      margin-top: 35px;
+  }
+
+  section#intro-to-volumetic-weight .row .info-section-icon img {
+    max-width: 100%;
+  }
+
+    .popup-info-block .info-contents {
+        width:96%;
+    }
+    .popup-info-block .info-contents.new-tag:after {
+        display:none;
+    }
+    .popup-info-block .info-contents .popup-closer {
+        top:10px;
+        right:10px;
+        width:20px;
+        height:20px;
+        background-size:contain;
+    }
+    .popup-info-block .info-contents .info-block-top,
+    .popup-info-block .info-contents .info-block-bottom {
+        display:none;
+    }
+    .popup-info-block .info-contents .info-block-mid {
+        padding:25px;
+        background:#2171a6;
+        border:4px solid #FFF;
+        border-radius:10px;
+        -webkit-border-radius:10px;
+        -moz-border-radius:10px;
+    }
+    .popup-info-block .info-contents .info-block-mid .popup-points ul li .img-holder {
+        display:none;
+    }
+    .popup-info-block .info-contents .info-block-mid .popup-points ul li .point-info {
+        width:100%;
+        float:none;
+        margin-bottom:0;
+        border-left:none;
+    }
+    .popup-info-block .info-contents .info-block-mid .nice-form-input {
+        padding:4px;
+        margin:15px auto 25px;
+    }
+    .popup-info-block .info-contents .info-block-mid .nice-form-input .input-group {
+        display:block;
+    }
+    .popup-info-block .info-contents .info-block-mid .nice-form-input .input-group .form-control,
+    .popup-info-block .info-contents .info-block-mid .nice-form-input .input-group .input-group-btn,
+    .popup-info-block .info-contents .info-block-mid .nice-form-input .input-group .input-group-btn .btn {
+        width:100%;
+        display:block;
+    }
+}
+
+
+/* For iPad Landscape and Google Nexus7 Landscape */
+@media screen and (max-height:768px) and (max-width:1024px), only screen and (device-width : 1280px) and (orientation: landscape) {
+
+    section#how-it-works-section .hiw-block h4 {
+        font-size:18px;
+        font-weight:500;
+    }
+
+    section#shipping-banner-section .item>div {
+        margin:0 20px;
+    }
+    section#shipping-banner-section h3 {
+        font-size:28px;
+        word-break: break-all;
+    }
+    section#shipping-banner-section p {
+        font-size:19px;
+    }
+    section#shipping-banner-section img {
+        width:120px;
+    }
+    section#shipping-banner-section .style2 img,
+    section#shipping-banner-section .style3 img {
+        height:90px;
+    }
+    section#shipping-banner-section .custom-btn {
+        margin-bottom:15px;
+        padding:13px 35px 11px 30px;
+    }
+
+    section#visual-section {
+        padding-bottom:40px;
+    }
+    section#visual-section .the-blocks-wrapper {
+        height:auto;
+    }
+    section#visual-section .the-blocks {
+        height:553px;
+    }
+    section#visual-section .the-blocks .the-block h3 {
+        font-size:22px;
+        padding:20px;
+    }
+    section#visual-section .the-blocks .the-block .the-block-content .the-block-item p {
+        font-size:18px;
+    }
+    section#visual-section .the-blocks .the-block .the-block-content .the-block-item .visual-icon {
+        height:160px;
+        background-size:100px;
+    }
+    section#visual-section .the-blocks .the-block:hover h3,
+    section#visual-section .the-blocks .the-block.active-block h3 {
+        padding:38px 20px;
+    }
+    section#visual-section .the-blocks .the-block:hover .the-block-content .the-block-item .visual-icon,
+    section#visual-section .the-blocks .the-block.active-block .the-block-content .the-block-item .visual-icon {
+        height:180px;
+        background-size:110px;
+    }
+
+    .custom-tabs .tabs-navigation li>a {
+        font-size:16px;
+    }
+    .custom-tabs .tabs-navigation li.service-icon a:before {
+        width:30px;
+        margin-right:5px;
+        background-size:22px;
+    }
+    .custom-tabs .tab-contents .tab-content {
+        font-size:15px;
+    }
+    .custom-tabs .tab-contents .tab-content .col-sm-9 {
+        width:100%;
+    }
+    .custom-tabs .tab-contents .tab-content .col-sm-3 {
+        display:none;
+    }
+    .custom-tabs .tab-contents .tab-content .timage {
+        display:none;
+    }
+    .custom-tabs .tab-contents .tab-content p.intro {
+        font-size:17px;
+        line-height:20px;
+        margin-bottom:15px;
+    }
+
+    section#intl-delivery-map .delivery-map img {
+        width:100%;
+    }
+}
+
+/* For Google Nexus Landscape */
+@media only screen and (device-width : 966px) and (orientation: landscape) {
+
+    .container {
+        width:960px;
+    }
+}
+
+/* For Small Screen Devices, Google Nexus Portrait */
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-width: 400px) and (max-width: 668px), screen and (min-width:668px) and (max-width:992px), only screen and (max-device-width: 480px), only screen and (max-width: 480px), only screen and (max-device-width: 667px), only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+    header#main-header .top-area {
+        height:auto;
+    }
+    header#main-header .top-area .top-nav li {
+        width:50%;
+        border-left:0;
+        display:block;
+    }
+    header#main-header .top-area .top-nav li a {
+        line-height:50px;
+    }
+    header#main-header .top-area .top-nav li.account-link {
+        float:left;
+    }
+    header#main-header .top-area .top-nav li.tracking-link {
+        width:96%;
+        float:none;
+        margin:0 2%;
+    }
+    header#main-header .top-area .top-nav li.tracking-link a {
+        height:50px;
+        font-size:18px;
+        line-height:53px;
+    }
+    header#main-header .top-area .top-nav li.tracking-link a:before {
+        top:14px;
+        left:50px;
+        bottom:initial;
+    }
+    header#main-header .top-area .top-nav li.tracking-link a:after {
+        top:18px;
+        right:50px;
+    }
+
+    header#main-header .main-header-area .branding-logo {
+        display:block;
+        text-align:center;
+    }
+
+    section#reviews-slider-section {
+        padding-bottom:15px;
+    }
+    section#reviews-slider-section .reviews-overview {
+        border-right:none;
+    }
+    section#reviews-slider-section .extended-comments-view {
+        margin-bottom:-15px;
+    }
+
+    section#how-it-works-section {
+        padding-bottom:20px;
+    }
+    section#how-it-works-section .hiw-block {
+        margin-bottom:70px;
+    }
+
+    section#shipping-banner-section {
+        height:auto;
+        padding:20px 0 10px;
+    }
+    section#shipping-banner-section img {
+        float:none;
+    }
+
+    section#visual-section {
+        background-size:cover;
+    }
+    section#visual-section .the-blocks-wrapper {
+        height:auto;
+    }
+    section#visual-section .the-blocks-wrapper .the-blocks {
+        height:auto;
+        box-shadow:none;
+        -webkit-box-shadow:none;
+        -moz-box-shadow:none;
+        -o-box-shadow:none;
+    }
+    section#visual-section .the-blocks .the-block {
+        width:100%;
+        float:none;
+        margin-bottom:20px;
+    }
+    section#visual-section .the-blocks .the-block:last-child {
+        margin-bottom:0;
+    }
+    section#visual-section .the-blocks .the-block:hover,
+    section#visual-section .the-blocks .the-block.active-block {
+        box-shadow:none;
+        -webkit-box-shadow:none;
+        -moz-box-shadow:none;
+        -o-box-shadow:none;
+    }
+    section#visual-section .the-blocks .the-block:hover h3,
+    section#visual-section .the-blocks .the-block.active-block h3 {
+        top:0;
+        padding:30px 0;
+    }
+    section#visual-section .the-blocks .the-block:hover .the-block-content,
+    section#visual-section .the-blocks .the-block.active-block .the-block-content {
+        margin-top:0;
+    }
+
+    section#latest-blog-section {
+        padding-bottom:20px;
+    }
+    section#latest-blog-section .section-head {
+        margin-bottom:10px;
+    }
+    section#latest-blog-section .section-head h3 {
+        width:100%;
+    }
+    section#latest-blog-section .section-head h3 a {
+        margin-left:0;
+    }
+    section#latest-blog-section .blog-carousel .blog-item .readmore-link {
+        margin-top:0;
+        margin-bottom:20px;
+    }
+    section#latest-blog-section .blog-carousel .item .blog-item.last-child .readmore-link,
+    section#latest-blog-section .blog-carousel .item .blog-item:last-child .readmore-link {
+        margin-bottom:0;
+    }
+
+    section#informations-section {
+        padding:10px 0 20px;
+    }
+    section#informations-section h3 {
+        font-size:26px;
+    }
+    section#informations-section .info-sections {
+        margin-top:25px;
+    }
+    section#informations-section .info-sections .info-section-left {
+        width:100%;
+        float:none;
+        border-left:none;
+    }
+    section#informations-section .info-sections .info-section-left p {
+        width:100%;
+        padding:10px;
+        margin-bottom:5px;
+    }
+    section#informations-section .info-sections .info-section-right {
+        float:none;
+        width:100%;
+        margin-top:20px;
+        border-left:none;
+        padding:20px;
+        border-top:3px solid #e4e4e4;
+        border-bottom:1px solid #e4e4e4;
+    }
+    section#informations-section .info-sections .info-section-right ul {
+        margin:0;
+    }
+
+    section#services-info-section {
+        padding-top:0;
+    }
+
+    .custom-tabs .tabs-navigation li {
+        width:100%;
+    }
+    .custom-tabs .tab-contents .tab-content {
+        padding:20px;
+    }
+
+    .with-video-bg video,
+    .with-video-bg .mask {
+        display:none;
+    }
+
+    footer#main-footer .main-footer-area {
+        padding:20px;
+    }
+    footer#main-footer .main-footer-area .the-cols .the-col {
+        width:100%;
+        float:none;
+        margin-bottom:30px;
+    }
+    footer#main-footer .main-footer-area .the-cards {
+        width:100%;
+    }
+    footer#main-footer .main-footer-area .the-cards a {
+        width:33%;
+        margin-bottom:5px;
+    }
+    footer#main-footer .main-footer-area .social-networks {
+        width:100%;
+        text-align:center;
+    }
+    footer#main-footer .main-footer-area .social-networks ul {
+        width:100%;
+        text-align: center;
+    }
+    footer#main-footer .main-footer-area .social-networks ul li {
+        float:none;
+        display:inline-block;
+    }
+
+    .goto-top {
+        opacity:0.6;
+    }
+    .goto-top:active,
+    .goto-top:hover {
+        opacity:1;
+    }
+
+    section#intl-delivery-map h3 {
+        font-size:26px;
+        line-height:30px;
+        margin-bottom:15px;
+    }
+    section#intl-delivery-map.uk-delivery-map h3 {
+        margin-top:10px;
+    }
+    section#intl-delivery-map h3 br {
+        display:none;
+    }
+    section#intl-delivery-map h4 {
+        font-size:15px;
+    }
+    section#intl-delivery-map .text-panel {
+        margin-top:20px;
+    }
+    section#intl-delivery-map .text-panel .text-panel-data {
+        padding:0 10px;
+    }
+    section#intl-delivery-map .text-panel .text-panel-data.text-panel-right {
+        border-left:0;
+        padding-top:15px;
+        border-top:1px solid #e5e5e5;
+    }
+
+    section#courier-service-section .banner-image {
+        width:100%;
+    }
+    section#courier-service-section h3 {
+        font-size:32px;
+        margin-top:25px;
+    }
+    section#courier-service-section h4 {
+        width:100%;
+    }
+    section#courier-service-section .visual-data {
+        width:100%;
+    }
+    section#courier-service-section .visual-data p br {
+        display:none;
+    }
+
+    section#delivery-info .delivery-data {
+        text-align:center;
+        margin-bottom:25px;
+    }
+    section#delivery-info .delivery-data .step-image {
+        padding-left:0;
+        padding-top:10px;
+    }
+    section#delivery-info .delivery-data p {
+        width:70%;
+        margin:auto;
+        border-left:0;
+        padding-left:0;
+        padding-top:10px;
+        border-top:3px solid #f2f2f2;
+    }
+
+    section#delivery-process-info .container>h3 {
+        font-size:35px;
+    }
+    section#delivery-process-info .upper-container .upper-container-section.upper-container-section-right {
+        text-align:left;
+    }
+    section#delivery-process-info .upper-container .upper-container-section h3,
+    section#delivery-process-info .upper-container .upper-container-section.upper-container-section-right  h3 {
+        font-size:22px;
+        margin-top:20px;
+    }
+    section#delivery-process-info .upper-container .upper-container-section p br {
+        display:none;
+    }
+    section#delivery-process-info .info-section-container {
+        margin-top:0;
+        padding:30px 0;
+    }
+    section#delivery-process-info .info-section.info-section-icon {
+        padding:10px 0;
+    }
+    section#delivery-process-info .info-section .info-section-icon,
+    section#delivery-process-info .info-section .info-section-image,
+    section#delivery-process-info .info-section.info-section-left .info-section-icon,
+    section#delivery-process-info .info-section.info-section-left .info-section-image,
+    section#delivery-process-info .info-section.info-section-right .info-section-icon,
+    section#delivery-process-info .info-section.info-section-right .info-section-image {
+        float:none;
+        clear:both;
+        margin:10px auto;
+    }
+    section#delivery-process-info .info-section .info-section-icon {
+        text-align:center;
+    }
+    section#delivery-process-info .info-section.info-section-right .info-section-icon {
+        margin-left:0;
+    }
+    section#delivery-process-info .info-section .info-section-contents {
+        padding:10px;
+    }
+    section#delivery-process-info .info-section .info-section-contents p,
+    section#delivery-process-info .info-section.info-section-icon .info-section-contents p,
+    section#delivery-process-info.uk-delivery-process-info .info-section.info-section-icon .info-section-contents p {
+        width:100%;
+    }
+    section#delivery-process-info .info-section.info-section-right .info-section-contents {
+        text-align:left;
+    }
+    section#delivery-process-info .info-section.info-section-right .info-section-contents p {
+        float:none;
+    }
+
+    section#delivery-tracking-section h3 {
+        font-size:32px;
+    }
+    section#delivery-tracking-section p {
+        width:90%;
+    }
+    section#delivery-tracking-section p br {
+        display:none;
+    }
+
+    section#courier-prices-upgrades-section img {
+        width:50%;
+        float:none;
+        display:block;
+        margin:10px auto 30px;
+    }
+    section#courier-prices-upgrades-section h3 {
+        font-size:32px;
+    }
+    section#courier-prices-upgrades-section p {
+        width:95%;
+    }
+    section#courier-prices-upgrades-section p br {
+        display:none;
+    }
+
+    section#cheap-delivery-section {
+        padding-bottom:35px;
+        background-position:20px center;
+    }
+    section#cheap-delivery-section h3 {
+        font-size:22px;
+    }
+    section#cheap-delivery-section h3 br {
+        display:none;
+    }
+    section#cheap-delivery-section ul,
+    section#cheap-delivery-section.uk-cheap-delivery-section ul {
+        width:90%;
+    }
+    section#cheap-delivery-section ul li {
+        font-size:14px;
+    }
+
+    section#upgrades-info-section .upgrades-block,
+    section#upgrades-info-section .upgrades-block.upgrades-block-right {
+        text-align:left;
+    }
+    section#upgrades-info-section .upgrades-block img,
+    section#upgrades-info-section .upgrades-block.upgrades-block-right img {
+        float:none;
+        display:block;
+        margin:5px auto 25px;
+    }
+    section#upgrades-info-section .upgrades-block p {
+        padding-left:0;
+    }
+    section#upgrades-info-section .upgrades-block p br {
+        display:block;
+    }
+
+    section#remote-shipping-section h3 {
+        font-size:32px;
+    }
+    section#remote-shipping-section p {
+        width:95%;
+    }
+    section#remote-shipping-section p br {
+        display:none;
+    }
+
+    section#large-delivery-section h3 {
+        font-size:32px;
+    }
+    section#large-delivery-section p br {
+        display:none;
+    }
+
+    section#packaging-safely-section h3 {
+        font-size:32px;
+    }
+    section#packaging-safely-section p br,
+    section#packaging-safely-section h3 br,
+    section#packaging-safely-section ul li br {
+        display:none;
+    }
+    section#packaging-safely-section img {
+        display:block;
+        margin:0 auto 20px;
+    }
+    section#packaging-safely-section .packaging-info .text-block {
+        border-right:none;
+        min-height:initial;
+    }
+    section#packaging-safely-section.uk-packaging-safely-section .extra-info p {
+        width:90%;
+    }
+
+    section#main-about-section {
+        border-top:3px solid #e5e5e5;
+    }
+    section#main-about-section h3 {
+        font-size:38px;
+    }
+    section#main-about-section h4 {
+        font-size:36px;
+    }
+    section#main-about-section h5 {
+        font-size:32px;
+    }
+    section#main-about-section h4 img,
+    section#main-about-section h5 img {
+        padding-bottom:10px;
+    }
+    section#main-about-section .text-block br {
+        display:none;
+    }
+    section#main-about-section .about-data-block {
+        padding-bottom:20px;
+    }
+
+    section#join-us-section h3 {
+        font-size:36px;
+    }
+    section#join-us-section img {
+        margin:auto;
+        display:block;
+    }
+    section#join-us-section .text-block p br {
+        display:none;
+    }
+
+    .tabbed-container .tab-contents .tab-content {
+        padding:10px;
+    }
+
+    section#main-about-section .tabbed-container .news-list>.news-row {
+        padding:0;
+        border-bottom:0;
+    }
+    section#main-about-section .tabbed-container .news-list .news-item {
+        padding:30px 0;
+        border-bottom:1px solid #e2e2e2;
+    }
+    section#main-about-section .tabbed-container .news-list .news-row:last-child .news-item:last-child {
+        padding-bottom:0;
+        border-bottom:none;
+    }
+
+    section#main-about-section .media-kits .media-kit-item {
+        margin-bottom:30px;
+    }
+
+    section#main-about-section .nice-table {
+        margin:30px 0;
+    }
+
+    section#main-about-section .img-container {
+        background:#439BDB;
+    }
+    section#main-about-section .img-container img {
+        display:none;
+    }
+    section#main-about-section .img-container .caption-data {
+        font-size:16px;
+        position:static;
+    }
+
+    section#main-about-section .contact-box-info {
+        margin-bottom:25px;
+        min-height:initial;
+    }
+
+    section#contact-form-section h4 {
+        text-align:center;
+    }
+    section#contact-form-section form {
+        margin-bottom:35px;
+    }
+    section#contact-form-section form .submit-btn {
+        width:100%;
+        display:block;
+    }
+}
+
+/* For iPad Portrait */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+    header#main-header .main-header-area .branding-logo {
+        width: 253px;
+    }
+}
+
+/* For Very Small Screens */
+@media only screen and (max-width: 767px) {
+
+    ::-webkit-input-placeholder {
+        font-size:14px;
+        line-height:1.4em;
+    }
+    :-moz-placeholder {
+        font-size:13px;
+        line-height:1.6em;
+    }
+    ::-moz-placeholder {
+        font-size:13px;
+        line-height:1.6em;
+    }
+    :-ms-input-placeholder {
+        font-size:13px;
+        line-height:1.6em;
+    }
+
+    header#main-header .main-header-area .branding-logo {
+        width:100%;
+        background-position:center center;
+    }
+
+    section#reviews-slider-section .reviews-carousel {
+        margin:30px 0 0;
+        padding:20px 0 0;
+        border-top:1px solid rgba(255, 255, 255, 0.5);
+    }
+
+
+    .with-video-bg video,
+    .with-video-bg .mask {
+        display:none;
+    }
+
+    section#latest-blog-section .blog-carousel .item .blog-item {
+        margin:0;
+        width:100%;
+        float:none;
+        padding:0 !important;
+    }
+
+    #nav-tabs-section ul li.tab-item {
+        width:50%;
+        margin-bottom:5px;
+    }
+    #nav-tabs-section ul li.tab-item.first-child {
+        width:100%;
+    }
+    #nav-tabs-section ul li.tab-item:after {
+        display:none;
+    }
+
+    section#main-about-section .nice-table .table-data .table-body .apply-btn {
+        margin:20px 10px 0;
+    }
+
+    section#business-account-benefits .info-section-icon {
+		text-align: left;
+		margin-bottom: 30px;
+    }
+    section#business-account-benefits .info-section-icon img {
+    	margin:auto;
+    	display:block;
+    }
+    section#business-account-benefits .info-section-text {
+       text-align: left;
+    }
+    section#parcelhero-business-account form .form-group {
+    	margin:0 8% 15px;
+    }
+    section#parcelhero-business-account form label {
+    	padding-left:0;
+    }
+    section#parcelhero-business-account form .form-group div {
+    	padding-left:0;
+    }
+
+   section#parcelhero-business-account h6 {
+        font-size: 26px;
+        margin: 40px 0 30px;
+    }
+
+    .pricing-surcharges-section .text-panel {
+      border-bottom:1px solid #e5e5e5;
+      border-right: 0;
+      margin-bottom: 40px;
+    }
+
+    .pricing-surcharges-section .last-col .text-panel {
+       border-bottom:0;
+       margin-bottom: 0;
+    }
+
+    section#optional-upgrages .text-panel,
+    section#custom-cleareance-surcharges .text-panel,
+    section#surcharges-fixes .text-panel,
+    section#lh-percels-surcharges .text-panel {
+        min-height: 100%;
+    }
+
+    section#lh-percels-surcharges .section-icon-wrap,
+    section#surcharges-failed .section-icon-wrap,
+    section#surcharges-fixes .section-icon-wrap,
+    section#custom-cleareance-surcharges .section-icon-wrap {
+        height:100%;
+    }
+
+
+	.pricing-surcharges-section .page-section-block h3 {
+		margin: 10px 0;
+	}
+
+	#pricing-surcharges-page.page-section-block h3 {
+		margin-bottom: 35px;
+	}
+
+	#large-and-heavy-parcels-banner h1 {
+		position: relative;
+		top: auto;
+		left: 0;
+		margin: 40px 0 0;
+		color:#474747;
+		font-size: 3em;
+		font-weight: 300;
+		text-align: center;
+	}
+
+	#large-and-heavy-parcels-banner h1 span {
+		display: inline;
+	}
+
+	section#intl-delivery-map {
+		padding:15px 0 35px;
+	}
+
+	section#intl-delivery-map .text-panel .text-panel-data.text-panel-left {
+		border-right: 0;
+	}
+
+	.faq-questions {
+		margin-left: 0;
+	}
+
+	.additional-benefits {
+		border:2px solid #e7e7e7;
+		width: auto;
+		margin: 0 auto 20px;
+	}
+
+	section#delivery-process-info .info-section-wrap p {
+    	padding-top: 20px;
+	}
+
+	section#prices-surcharges-section {
+		padding: 30px 0 0;
+	}
+
+	section#prices-surcharges-section h3 {
+		margin: 0;
+		font-size:35px;
+	}
+
+	section#prices-surcharges-section .info-section .info-section-icon {
+	    float:none;
+	}
+
+	section#prices-surcharges-section .info-section .info-section-icon img {
+	    max-width: 100%;
+	}
+
+	section#prices-surcharges-section .info-section.info-section-left .info-section-icon {
+	    margin:15px 0;
+	}
+	section#prices-surcharges-section .info-section.info-section-left .info-section-icon img {
+		display:block;
+		margin:auto;
+	}
+
+	section#prices-surcharges-section .info-section {
+	    padding: 0;
+	}
+	.customs-paperwork-wrap h4 {
+	    padding-top: 20px;
+	    text-align: left;
+	}
+
+	section#prices-surcharges-section .info-section.info-section-right .info-section-contents,
+	section#prices-surcharges-section .info-section.info-section-right .info-section-contents p {
+	    text-align: left;
+	    float: none;
+	}
+
+	section#prices-surcharges-section .info-section .info-section-contents {
+	    padding-top: 0;
+	}
+
+	section#size-weight-restrictions .delivery-data {
+	   border-left: 0;
+	}
+
+	section#uk-int-pallet-delivery .text-panel .text-panel-data.text-panel-left {
+	    border-right:0;
+	}
+
+	section#uk-int-pallet-delivery .text-panel .text-panel-data {
+	    padding:0;
+	}
+
+	section#prepare-pallet-section .first-step h6 {
+	    margin-top: 0;
+	}
+
+	section#prepare-pallet-section .row > div p {
+	    margin-bottom: 25px;
+	}
+
+	section#prepare-pallet-section .image-block {
+	    max-width: 100%;
+	}
+
+	section#labels-paperwork-section .info-section .info-section-image,
+	section#labels-paperwork-section .info-section .info-section-icon  {
+	    float:none;
+	}
+
+	section#labels-paperwork-section .info-section.info-section-icon {
+	  padding: 0;
+	}
+
+	section#labels-paperwork-section .info-section.info-section-right .info-section-contents {
+	    text-align: left;
+	}
+
+	section#labels-paperwork-section .info-section .info-section-contents p,
+	section#labels-paperwork-section .info-section.info-section-right .info-section-contents p,
+	section#labels-paperwork-section .info-section.info-section-icon .info-section-contents p {
+	    width: 100%;
+	}
+
+	section#prices-surcharges-section.prices-surcharges-section {
+	    padding: 30px 0 45px;
+	}
+
+	section#prices-surcharges-section.prices-surcharges-section .info-section-icon {
+	    margin-top: 30px;
+	}
+
+	section#delivery-process-info .oversized-pallets h4,
+	section#delivery-process-info .oversized-pallets ,
+	section#delivery-process-info .oversized-pallets .info-section-icon {
+	    text-align: center;
+	}
+
+    section#reviews-slider-section .reviews-source-carousel.owl-carousel {
+        border-right:none;
+    }
+    section#reviews-slider-section .extended-comments-view .review-comment {
+        padding:30px 0 30px 60px;
+    }
+}
+
+
+
+/* For Very Small Screens */
+@media only screen and (max-width: 500px) {
+
+	section#opening-business-account h4,
+	section#calculating-volumetric-weight h4,
+	.pricing-surcharges-section .page-section-block h3,
+	section#size-weight-restrictions h3,
+	section#prices-surcharges-section h3,
+	section#uk-int-pallet-delivery h3,
+	section#labels-paperwork-section h3 {
+       font-size:35px;
+       margin: 25px 0 30px;
+	}
+
+    #large-and-heavy-parcels-banner h1 {
+       font-size:35px;
+	}
+
+    section#choose-couriers-section.choose-couriers-section2 h3,
+    section#packaging-safely-section h3 {
+       font-size:28px;
+	}
+
+	section#prices-surcharges-section h3 {
+		margin: 0;
+	}
+
+	section#parcelhero-business-account form .inner-wrap {
+		width:85%;
+	}
+
+	section#parcelhero-business-account form .inner-wrap .btn-primary {
+		width:100%;
+	}
+
+   section#parcelhero-business-account h6 {
+        font-size: 22px;
+    }
+
+    section#business-account-benefits h5 {
+       font-size: 22px;
+       margin-top: 0;
+    }
+
+    section#calculating-volumetric-weight form .form-group {
+    	width:100%
+    }
+    section#calculating-volumetric-weight form .btn-primary {
+    	width:88%;
+       margin-right: 0;
+       margin-bottom: 8px;
+    }
+    section#calculating-volumetric-weight form .btn-calulate {
+    	width:88%;
+    }
+    section#calculating-volumetric-weight form .total-row input.form-control {
+    	width:92%;
+    }
+
+    section#calculating-volumetric-weight form input.form-control {
+		width: 100%;
+	}
+
+	section#calculating-volumetric-weight form h6 {
+		font-size: 18px;
+	}
+
+    section#additional-cover-cost .enhanced-cover {
+		width: 100%;
+	}
+
+	section#additional-cover-cost h6 {
+		font-size: 20px;
+	}
+
+	.pricing-surcharges-section .row {
+		margin: 40px 0;
+	}
+
+	section#size-weight-restrictions .delivery-data .step-image,
+	section#size-weight-restrictions .delivery-data p {
+		padding-left:0;
+	}
+
+	section#prices-surcharges-section .info-section .info-section-contents {
+		padding-left:0;
+	}
+	section#prices-surcharges-section .info-section .info-section-contents h4,
+	section#prices-surcharges-section .info-section.info-section-icon .info-section-contents p {
+		width:95%;
+		margin:auto;
+	}
+
+	.additional-benefits {
+		padding:15px;
+	}
+	.additional-benefits p strong {
+		padding-bottom:10px;
+		display:inline-block;
+	}
+
+	section#prices-surcharges-section .info-section.info-section-right .info-section-icon {
+		margin:25px 0 35px;
+	}
+	section#prices-surcharges-section .info-section.info-section-right .info-section-icon img {
+		margin:auto;
+		display:block;
+	}
+
+	section#size-weight-restrictions .image-block {
+		min-height:initial;
+	}
+	section#size-weight-restrictions .size-weight-box .content-section-info,
+	section#size-weight-restrictions .delivery-data .content-section-info {
+		padding-bottom:20px;
+	}
+
+	.pricing-surcharges-section .page-section-block p br {
+		display:none;
+	}
+	.pricing-surcharges-section .text-panel h4 {
+		font-size:24px;
+	}
+	.pricing-surcharges-section .text-panel p {
+		padding-right:0;
+	}
+	.pricing-surcharges-section .page-section-block p a {
+		font-size:14px;
+	}
+
+    .popup-info-block .info-contents .info-block-mid {
+        padding:25px 10px;
+    }
+    .popup-info-block .info-contents .info-block-mid h2 {
+        font-size:25px;
+    }
+    .popup-info-block .info-contents .info-block-mid h2 span {
+        font-size:35px;
+    }
+
+    ul.selectbox-filter-target-selectBox-dropdown-menu {
+        max-width:320px;
+    }
+
+    .popover {
+        min-width:1px;
+        margin-left:0 !important;
+    }
+    .popover .popover-title {
+        padding:4px 12px;
+        font-size:18px !important;
+        line-height:36px !important;
+    }
+    .popover .popover-title .icon {
+        display:none;
+    }
+    .popover .popover-content {
+        padding:12px;
+    }
+}
+
+
+@media only screen and (max-width:399px) {
+
+    ul.selectbox-filter-target-selectBox-dropdown-menu {
+        max-width:220px;
+    }
+
+	header#main-header .main-header-area .branding-logo {
+		background-size:contain;
+	}
+}

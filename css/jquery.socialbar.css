@@ -1,0 +1,199 @@
+.socialbar {
+	top:25%;
+	z-index:40;
+	position:fixed;
+}
+.socialbar.pos-left {
+	left:0;
+}
+.socialbar.pos-right {
+	right:0;
+}
+.socialbar h5 {
+	color:#FFF;
+	margin-top:0;
+	font-size:22px;
+	font-weight:300;
+	margin-bottom:0;
+	padding-bottom:10px;
+}
+.socialbar ul {
+	margin:0;
+	padding:0;
+}
+.socialbar ul li.social-item {
+	line-height:1.3em;
+}
+.socialbar.pos-left ul li.social-item {
+	text-align:left;
+}
+.socialbar.pos-right ul li.social-item {
+	text-align:right;
+}
+.socialbar ul li.social-item a {
+	color:#FFF;
+	font-size:14px;
+	position:relative;
+	background:#DEDEDE;
+	display:inline-block;
+	transition:all .5s ease;
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-ms-transition:all .5s ease;
+	-o-transition:all .5s ease;
+	box-shadow:0 0 2px rgba(0, 0, 0, .22);
+	-webkit-box-shadow:0 0 2px rgba(0, 0, 0, .22);
+	-moz-box-shadow:0 0 2px rgba(0, 0, 0, .22);
+	-o-box-shadow:0 0 2px rgba(0, 0, 0, .22);
+}
+.socialbar.pos-left ul li.social-item a {
+	padding:8px 0 8px 12px;
+	border-radius: 0px 5px 5px 0px;
+	-webkit-border-radius: 0px 5px 5px 0px;
+	-moz-border-radius: 0px 5px 5px 0px;
+}
+.socialbar.pos-right ul li.social-item a {
+	padding:8px 12px 8px 0;
+	border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
+	-moz-border-radius: 5px 0 0 5px;
+}
+.socialbar ul li.social-item.social-item-facebook a {
+	background:#3b5998;
+}
+.socialbar ul li.social-item.social-item-twitter a {
+	background:#00aced;
+}
+.socialbar ul li.social-item.social-item-google-plus a {
+	background:#dd4b39;
+}
+.socialbar ul li.social-item.social-item-linkedin a {
+	background:#007bb6;
+}
+.socialbar ul li.social-item.social-item-headphones a {
+	background:#507190;
+}
+.socialbar ul li.social-item a:after {
+	content:'';
+	float:none;
+	clear:both;
+	display:block;
+}
+.socialbar ul li.social-item a:focus:before,
+.socialbar ul li.social-item a:active:before {
+	top:0;
+	left:0;
+	content:'';
+	width:100%;
+	height:100%;
+	position:absolute;
+	background:rgba(255, 255, 255, .3);
+}
+.socialbar ul li.social-item a .icon {
+	width:15px;
+	float:left;
+	display:block;
+	font-size:17px;
+	text-align:center;
+}
+.socialbar.pos-right ul li.social-item a .icon {
+	float:right;
+}
+.socialbar ul li.social-item a .label {
+	width:0;
+	padding:0;
+	float:left;
+	color:inherit;
+	display:block;
+	font-size:100%;
+	font-weight:300;
+	overflow:hidden;
+	line-height:1.3em;
+	transition:all .5s ease;
+	-webkit-transition:all .5s ease;
+	-moz-transition:all .5s ease;
+	-ms-transition:all .5s ease;
+	-o-transition:all .5s ease;
+}
+.socialbar.pos-left ul li.social-item a .label {
+	text-align:left;
+	margin-left:12px;
+}
+.socialbar.pos-right ul li.social-item a .label {
+	text-align:right;
+	margin-right:12px;
+}
+.socialbar ul li.social-item a.open .label {
+	min-width:80px;
+}
+
+.socialbar-trigger {
+	left:15px;
+	z-index:41;
+	bottom:15px;
+	display:none;
+	position:fixed;
+	padding:10px 15px;
+	color:#FFF !important;
+	background:#5ba9dc !important;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+}
+.socialbar-trigger:focus:before,
+.socialbar-trigger:active:before {
+	top:0;
+	left:0;
+	content:'';
+	width:100%;
+	height:100%;
+	position:absolute;
+	background:rgba(255, 255, 255, .3);
+}
+
+
+@media(max-width:1039px) {
+
+	.socialbar.full-overlay {
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		display:none;
+	}
+	.socialbar.full-overlay.open {
+		display:block;
+	}
+	.socialbar.full-overlay .socialbar-wrapper {
+		width:100%;
+		height:100%;
+		padding:30px;
+		overflow-y:auto;
+		background:rgba(0, 0, 0, .7);
+	}
+	.socialbar.full-overlay .socialbar-wrapper ul li.social-item {
+		width:100%;
+		margin-bottom:5px;
+	}
+	.socialbar.full-overlay .socialbar-wrapper ul li.social-item a {
+		width:100%;
+		padding:15px;
+		font-size:16px;
+		border-radius:3px;
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		-o-border-radius:3px;
+	}
+	.socialbar.full-overlay .socialbar-wrapper ul li.social-item a .label {
+		width:auto;
+		min-width:80px;
+		margin-right:0;
+		margin-left:20px;
+		min-width:initial;
+	}
+
+	.socialbar-trigger {
+		display:block;
+	}	
+}

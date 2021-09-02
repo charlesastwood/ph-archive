@@ -1,0 +1,32 @@
+jQuery( function($) {
+
+    //  Listen Add Field
+    $('#invite-friends-form .add-extra-field').click( function(e) {
+
+        //  Button
+        var $btn = $(this);
+
+        //  Container
+        var $container = $btn.prev();
+
+        //  Append
+        $container.append( [
+            '<div class="col-md-4 email-input-line">',
+                '<div class="element-group">',
+                    '<label class="element-label">Friend email address XX</label>',
+                    '<div class="element-input-wrap">',
+                        '<input type="email" class="element-input do-validate" data-pv-required data-pv-email />',
+                    '</div>',
+                '</div>',
+                '<div class="clearfix"></div>',
+            '</div>'
+        ].join( "\n" ) );
+
+        //  Init Material
+        initDefaultMaterialUI( $container.find( '.email-input-line:last-child' ) );
+
+        //  Prevent Default
+        e.preventDefault();
+        return false;
+    } );
+} );
